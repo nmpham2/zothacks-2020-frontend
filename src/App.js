@@ -18,7 +18,7 @@ function App() {
     <div className="app fill-view">
       <Router>
         <Switch>
-          <Route exact path={"/zothacks-2020-frontend"}>
+          <Route exact path={"/zothacks-2020-frontend/"}>
             <SearchPage recipe={recipe} setRecipe={setRecipe}/>
           </Route>
           <Route exact path={"/recipes"}>
