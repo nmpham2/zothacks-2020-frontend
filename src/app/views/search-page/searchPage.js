@@ -64,7 +64,7 @@ function SearchPage({recipe, setRecipe}){
      * TALK TO BACKEND ON HOW TO CONNECT FROM HERE
      */
     function BIGSubmit(){
-      axios.post('http://9d35c0a6c9b9.ngrok.io//search', {"ingredients": ingredientsList, "healthLabels": healthList})
+      axios.post('http://9d35c0a6c9b9.ngrok.io/search', {"ingredients": ingredientsList, "healthLabels": healthList})
       .then(function (response) {
         console.log(response.data);
         let returnedJSONData = response.data;
