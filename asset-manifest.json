@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zothacks-2020-frontend/static/css/main.0025e172.chunk.css",
-    "main.js": "/zothacks-2020-frontend/static/js/main.c6b75443.chunk.js",
-    "main.js.map": "/zothacks-2020-frontend/static/js/main.c6b75443.chunk.js.map",
+    "main.js": "/zothacks-2020-frontend/static/js/main.fcc0a979.chunk.js",
+    "main.js.map": "/zothacks-2020-frontend/static/js/main.fcc0a979.chunk.js.map",
     "runtime-main.js": "/zothacks-2020-frontend/static/js/runtime-main.0b10ceb0.js",
     "runtime-main.js.map": "/zothacks-2020-frontend/static/js/runtime-main.0b10ceb0.js.map",
     "static/css/2.5a2f7233.chunk.css": "/zothacks-2020-frontend/static/css/2.5a2f7233.chunk.css",
     "static/js/2.6cc1e2b2.chunk.js": "/zothacks-2020-frontend/static/js/2.6cc1e2b2.chunk.js",
     "static/js/2.6cc1e2b2.chunk.js.map": "/zothacks-2020-frontend/static/js/2.6cc1e2b2.chunk.js.map",
     "index.html": "/zothacks-2020-frontend/index.html",
-    "precache-manifest.7e742a05f240a4af7fc39f117de2e4c1.js": "/zothacks-2020-frontend/precache-manifest.7e742a05f240a4af7fc39f117de2e4c1.js",
+    "precache-manifest.576a974f87e9b2038bf1fe4139c7bab6.js": "/zothacks-2020-frontend/precache-manifest.576a974f87e9b2038bf1fe4139c7bab6.js",
     "service-worker.js": "/zothacks-2020-frontend/service-worker.js",
     "static/css/2.5a2f7233.chunk.css.map": "/zothacks-2020-frontend/static/css/2.5a2f7233.chunk.css.map",
     "static/css/main.0025e172.chunk.css.map": "/zothacks-2020-frontend/static/css/main.0025e172.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.5a2f7233.chunk.css",
     "static/js/2.6cc1e2b2.chunk.js",
     "static/css/main.0025e172.chunk.css",
-    "static/js/main.c6b75443.chunk.js"
+    "static/js/main.fcc0a979.chunk.js"
   ]
 }
