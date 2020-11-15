@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zothacks-2020-frontend/precache-manifest.576a974f87e9b2038bf1fe4139c7bab6.js"
+  "/zothacks-2020-frontend/precache-manifest.61bbf41970016d920377e21c28c2880b.js"
 );
 
 self.addEventListener('message', (event) => {
