@@ -16,8 +16,3 @@ The URL for defining the homepage is `http://<your_github_username_here>.github.
 * [Axios](https://www.npmjs.com/package/axios)
 * [Framer Motion](https://www.framer.com/motion/)
 
-## Final Product Screenshots
-
-#### Stock View
-<img width="1633" alt="Screenshot 2020-11-15 003626" src=" ">
-
