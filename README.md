@@ -5,7 +5,7 @@ This is the project repository for Team 12's ZotHack Project "Food Finder" where
 We built off of the ZotHack 2020 frontend workshop repository to build this, so you may see some familiar files and directories, but the pages that we render were all created separately (mostly searchPage, recipePage and their respective components).
 ### Deployment Link
 
-The URL for defining the homepage is `http://<your_github_username_here>.github.io/<name_of_repo>`
+Try it out! https://nmpham2.github.io/zothacks-2020-frontend/
 
 ### Included Packages
 
