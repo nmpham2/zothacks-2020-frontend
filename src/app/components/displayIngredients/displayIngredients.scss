@@ -3,18 +3,22 @@
 .displayIngredients {
   background-color: white;
   color: $black;
-  width: 20rem;
+  width: 10rem;
   margin-bottom: $large-spacing;
-  padding: $medium-spacing;
+  margin-left: $medium-spacing;
+  margin-right: $medium-spacing;
+  padding: $small-spacing;
   text-decoration: none;
   transition: 0.5s all;
-  text-align: left;
+  text-align: center;
   border-radius: $small-spacing;
   position: relative;
+  display: inline-block;
 
   h2 {
     margin: 0;
-    margin-bottom: $small-spacing;
+    margin-bottom: $small-spacing;   
+    font-size: 30px;
   }
 
   h3 {
