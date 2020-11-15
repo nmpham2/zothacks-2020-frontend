@@ -1,0 +1,41 @@
+@import "globals/hack-variables.scss";
+
+.user-card {
+  background-color: white;
+  color: $black;
+  width: 20rem;
+  margin-bottom: $large-spacing;
+  padding: $medium-spacing;
+  text-decoration: none;
+  transition: 0.5s all;
+  text-align: left;
+  border-radius: $small-spacing;
+  position: relative;
+
+  h2 {
+    margin: 0;
+    margin-bottom: $small-spacing;
+  }
+
+  h3 {
+    margin: 0;
+    margin-bottom: $small-spacing;
+    color: $light-gray;
+  }
+
+  h4 {
+    margin: 0;
+    color: $light-gray;
+  }
+
+  .tag {
+    color: $white;
+    position: absolute;
+    left: -50px;
+    top: 6px;
+  }
+}
+
+.user-card:hover {
+  box-shadow: $large-shadow;
+}
