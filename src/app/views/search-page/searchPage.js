@@ -22,41 +22,20 @@ function SearchPage({recipe, setRecipe}){
       setIngredientsList([...ingredientsList, userInput]);
       setUserInput('');
     }
-    function submitGlutenFree(){
-      setHealthList([...healthList, 'Gluten-free']);
+    function submitTreeNutFree(){
+      setHealthList([...healthList, 'tree-nut-free']);
     }
     function submitAlcoholFree(){
-      setHealthList([...healthList, 'Alcohol-free']);
-    }
-    function submitCrustaceanFree(){
-      setHealthList([...healthList, 'Crustacean-free']);
-    }
-    function submitDairyFree(){
-      setHealthList([...healthList, 'Dairy-free']);
-    }
-    function submitEggFree(){
-      setHealthList([...healthList, 'Egg-free']);
-    }
-    function submitFishFree(){
-      setHealthList([...healthList, 'Fish-free']);
-    }
-    function submitKeto(){
-      setHealthList([...healthList, 'Keto']);
-    }
-    function submitKosher(){
-      setHealthList([...healthList, 'Kosher']);
-    }
-    function submitPaleo(){
-      setHealthList([...healthList, 'Paleo']);
+      setHealthList([...healthList, 'alcohol-free']);
     }
     function submitVegetarian(){
-      setHealthList([...healthList, 'Vegetarian']);
+      setHealthList([...healthList, 'vegetarian']);
     }
     function submitVegan(){
-      setHealthList([...healthList, 'Vegan']);
+      setHealthList([...healthList, 'vegan']);
     }
-    function submitPorkFree(){
-      setHealthList([...healthList, 'Pork-Free']);
+    function submitPeanutFree(){
+      setHealthList([...healthList, 'peanut-free']);
     }
     
     /**
@@ -64,7 +43,7 @@ function SearchPage({recipe, setRecipe}){
      * TALK TO BACKEND ON HOW TO CONNECT FROM HERE
      */
     function BIGSubmit(){
-      axios.post('http://9d35c0a6c9b9.ngrok.io/search', {"ingredients": ingredientsList, "healthLabels": healthList})
+      axios.post('http://29e52674266f.ngrok.io/search', {"ingredients": ingredientsList, "healthLabels": healthList})
       .then(function (response) {
         console.log(response.data);
         let returnedJSONData = response.data;
@@ -98,16 +77,9 @@ function SearchPage({recipe, setRecipe}){
         <button onClick={BIGSubmit}>Submit List</button>
         <div style={{padding:"10px 0"}}>
           <h3>~ Health Labels ~</h3>
-          <button style={{margin: "10px"}}onClick={submitGlutenFree}>Gluten-free</button>
+          <button style={{margin: "10px"}}onClick={submitPeanutFree}>Peanut-free</button>
           <button style={{margin: "10px"}}onClick={submitAlcoholFree}>Alcohol-free</button>
-          <button style={{margin: "10px"}}onClick={submitCrustaceanFree}>Crustacean-free</button>
-          <button style={{margin: "10px"}}onClick={submitDairyFree}>Dairy-free</button>
-          <button style={{margin: "10px"}}onClick={submitEggFree}>Egg-free</button>
-          <button style={{margin: "10px"}}onClick={submitFishFree}>Fish-free</button>
-          <button style={{margin: "10px"}}onClick={submitKeto}>Keto</button>
-          <button style={{margin: "10px"}}onClick={submitKosher}>Kosher</button>
-          <button style={{margin: "10px"}}onClick={submitPaleo}>Paleo</button>
-          <button style={{margin: "10px"}}onClick={submitPorkFree}>Pork-free</button>
+          <button style={{margin: "10px"}}onClick={submitTreeNutFree}>Tree-Nut-free</button>
           <button style={{margin: "10px"}}onClick={submitVegan}>Vegan</button>
           <button style={{margin: "10px"}}onClick={submitVegetarian}>Vegetarian</button>
         </div>
