@@ -1,38 +1,11 @@
-# ZotHacks 2020 Front-end Repository
+# ZotHacks 2020: Team 12 Project
 
-This is the project repository for the ZotHacks Front-end workshop materials. Across the repository there are several branches representing different stages of the process.
+This is the project repository for Team 12's ZotHack Project "Food Finder" where you can input various ingredients you want to use and health restrictions you want to heed. Then you can submit these and get the name of a dish we think you should make!
 
-This project was created using the [HackUCI React Template](https://github.com/hackuci/React-Template), which was bootstrapped off of [Create React App](https://github.com/facebook/create-react-app).
-
-## Relevant Available Scripts 
-
-In the project directory, you can run:
-
-#### `yarn install`
-
-Installs dependencies listed in package.json into the application.
-
-#### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-#### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-This is the command you will use before deploying your project, there will be seperate workshop materials for this.
-
-## Workshop Materials
-
+We built off of the ZotHack 2020 frontend workshop repository to build this, so you may see some familiar files and directories, but the pages that we render were all created separately (mostly searchPage, recipePage and their respective components).
 ### Deployment Link
 
 The URL for defining the homepage is `http://<your_github_username_here>.github.io/<name_of_repo>`
-
-### Video Links
-
-* [TBD](https://google.com/)
 
 ### Included Packages
 
@@ -42,9 +15,4 @@ The URL for defining the homepage is `http://<your_github_username_here>.github.
 * [Node-sass](https://sass-lang.com/)
 * [Axios](https://www.npmjs.com/package/axios)
 * [Framer Motion](https://www.framer.com/motion/)
-
-## Final Product Screenshots
-
-#### Stock View
-<img width="1633" alt="Screen Shot 2020-10-02 at 9 31 01 PM" src="https://user-images.githubusercontent.com/13127625/95133850-c9212680-0716-11eb-8808-8167e208fd63.png">
 
