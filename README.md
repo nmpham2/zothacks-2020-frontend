@@ -19,5 +19,5 @@ The URL for defining the homepage is `http://<your_github_username_here>.github.
 ## Final Product Screenshots
 
 #### Stock View
-<img width="1633" alt="Screen Shot 2020-10-02 at 9 31 01 PM" src="https://user-images.githubusercontent.com/13127625/95133850-c9212680-0716-11eb-8808-8167e208fd63.png">
+<img width="1633" alt="Screenshot 2020-11-15 003626" src=" ">
 
