@@ -43,7 +43,7 @@ function SearchPage({recipe, setRecipe}){
      * TALK TO BACKEND ON HOW TO CONNECT FROM HERE
      */
     function BIGSubmit(){
-      axios.post('http://food-finders.herokuapp.com/search', {"ingredients": ingredientsList, "healthLabels": healthList})
+      axios.post('https://food-finders.herokuapp.com/search', {"ingredients": ingredientsList, "healthLabels": healthList})
       .then(function (response) {
         console.log(response.data);
         let returnedJSONData = response.data;
